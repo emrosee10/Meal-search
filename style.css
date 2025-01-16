@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f8b500, #fceabb);
+  color: #333;
+  text-align: center;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+}
+
+/* Header */
+h1 {
+  font-size: 2.5em;
+  color: #ff6b6b;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Search Box */
+.search-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 25px;
+  border: 2px solid #ff6b6b;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background: #ff6b6b;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(0px);
+  box-shadow: none;
+}
+
+/* Meal Display */
+#meal {
+  margin-top: 30px;
+  text-align: left;
+}
+
+#meal img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#meal h2 {
+  color: #ff6b6b;
+}
+
+#meal p {
+  font-size: 1em;
+  line-height: 1.6em;
+  color: #555;
+}
